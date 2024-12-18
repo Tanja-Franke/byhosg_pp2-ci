@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta tags for search engines-->
+    <meta name="description" content="Interactive game to see whether you build your house on solid ground or not.">
+    <meta name="keywords" content="bible knowledge, the Word of God, characters in the Bible, Jesus, game, 
+        Matthew 7: 24-27, wise and foolish builders">
+    <title>BYHOSG</title>
+    <!--Favicon-->
+    <link rel="shortcut-icon" type="image/x-icon" href="favicon.ico">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header id="title">
+        <h1>
+        <pre>
+             ________  ___  ___  ___  ___       ________           ___    ___ ________  ___  ___  ________          ___  ___  ________  ___  ___  ________  _______      
+            |\   __  \|\  \|\  \|\  \|\  \     |\   ___ \         |\  \  /  /|\   __  \|\  \|\  \|\   __  \        |\  \|\  \|\   __  \|\  \|\  \|\   ____\|\  ___ \     
+            \ \  \|\ /\ \  \\\  \ \  \ \  \    \ \  \_|\ \        \ \  \/  / | \  \|\  \ \  \\\  \ \  \|\  \       \ \  \\\  \ \  \|\  \ \  \\\  \ \  \___|\ \   __/|    
+             \ \   __  \ \  \\\  \ \  \ \  \    \ \  \ \\ \        \ \    / / \ \  \\\  \ \  \\\  \ \   _  _\       \ \   __  \ \  \\\  \ \  \\\  \ \_____  \ \  \_|/__  
+              \ \  \|\  \ \  \\\  \ \  \ \  \____\ \  \_\\ \        \/  /  /   \ \  \\\  \ \  \\\  \ \  \\  \|       \ \  \ \  \ \  \\\  \ \  \\\  \|____|\  \ \  \_|\ \ 
+               \ \_______\ \_______\ \__\ \_______\ \_______\     __/  / /      \ \_______\ \_______\ \__\\ _\        \ \__\ \__\ \_______\ \_______\____\_\  \ \_______\
+                \|_______|\|_______|\|__|\|_______|\|_______|    |\___/ /        \|_______|\|_______|\|__|\|__|        \|__|\|__|\|_______|\|_______|\_________\|_______|
+                                                                 \|___|/                                                                            \|_________|         
+                                                                                                                                                                         
+                                                                                                                                                                         
+             ________  ________           ________  ________  ___       ___  ________          ________  ________  ________  ___  ___  ________   ________  ___          
+            |\   __  \|\   ___  \        |\   ____\|\   __  \|\  \     |\  \|\   ___ \        |\   ____\|\   __  \|\   __  \|\  \|\  \|\   ___  \|\   ___ \|\  \         
+            \ \  \|\  \ \  \\ \  \       \ \  \___|\ \  \|\  \ \  \    \ \  \ \  \_|\ \       \ \  \___|\ \  \|\  \ \  \|\  \ \  \\\  \ \  \\ \  \ \  \_|\ \ \  \        
+             \ \  \\\  \ \  \\ \  \       \ \_____  \ \  \\\  \ \  \    \ \  \ \  \ \\ \       \ \  \  __\ \   _  _\ \  \\\  \ \  \\\  \ \  \\ \  \ \  \ \\ \ \  \       
+              \ \  \\\  \ \  \\ \  \       \|____|\  \ \  \\\  \ \  \____\ \  \ \  \_\\ \       \ \  \|\  \ \  \\  \\ \  \\\  \ \  \\\  \ \  \\ \  \ \  \_\\ \ \__\      
+               \ \_______\ \__\\ \__\        ____\_\  \ \_______\ \_______\ \__\ \_______\       \ \_______\ \__\\ _\\ \_______\ \_______\ \__\\ \__\ \_______\|__|      
+                \|_______|\|__| \|__|       |\_________\|_______|\|_______|\|__|\|_______|        \|_______|\|__|\|__|\|_______|\|_______|\|__| \|__|\|_______|   ___    
+                                            \|_________|                                                                                                         |\__\   
+                                                                                                                                                                 \|__|
+        </pre>
+        </h1>
+    </header>
+    <main>
+        <div class="container" id="toguess">
+            <p id="current"></p>
+        </div>
+        <div class="container" id="houseconainer">
+            <img src="#" alt="Your House">
+        </div>
+        <div class="container" id="guess">
+            <form onsubmit="playGame(); return false;">
+                <label for="answerinput" aria-label="enter Letter">Guess a letter: </label>
+                <input type="text" size="10" maxlength="1" id="answerinput" placeholder="Enter a letter"
+                    aria-labelledby="answerinput"><br><br>
+                <button id="submit" type="submit">Check Answer</button>
+                <input type="button" onclick="resetGame()" value="Reset form">
+            </form><br><br>
+            <h2>Already guessed: </h2><br>
+                    <p id="guessed"><b></b></p>
+        </div>
+        
+    </main>
+    <script src="wordlist.js"></script>
+    <script src="script.js"></script>
+    <footer>
+        <p id="copy">This website was solely created for educational purposes by T. F. <span><a
+                    href="https://de.linkedin.com/in/tanja-franke" target="_blank" rel="noopener"
+                    aria-label="Visit my linkedin-profile"><i class="fa-brands fa-linkedin"></i></a></span>
+            <span><a href="https://github.com/Tanja-Franke" target="_blank" rel="noopener"
+                    aria-label="Visit my github-profile"><i class="fa-brands fa-github"></i></a></span>
+        </p>
+    </footer>
+    <!--Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/4d6269d5e5.js" crossorigin="anonymous"></script>
+</body>
+</html>

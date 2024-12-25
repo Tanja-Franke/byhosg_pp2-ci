@@ -24,11 +24,34 @@ header {
 }
 header>h1 {
     font-size: small;
+    padding: 5em 10em;
 }
+nav {
+    display: flex;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: x-small;
+    
+}
+#menu{
+    display:flex;
+}
+#menu>li {
+    padding-left: 2rem;
+}
+header pre,
+#instruction pre{
+    font-size: x-large;
+}
+
 /*Make ascii art header responsive taken from stackoverflow 
 (https://stackoverflow.com/questions/75695347/how-can-i-make-ascii-art-pre-tag-responsive-without-media-queries)*/
 
-header pre {
+header pre,
+div pre {
     font-size: max(0.2rem, 1vmin);
    }
 body {
@@ -38,7 +61,7 @@ body {
 footer {
     margin-top: auto;
     justify-content: space-between;
-    font-size: 5;
+    font-size: xx-small;
     font-family: "Press Start 2P", serif;
     top: 100%;
     text-align: center;    
@@ -75,4 +98,6 @@ footer {
     display: flex;
     justify-content: center;
     gap: 1em;
+    font-size: small;
+    font-family: "Press Start 2P", serif;;
 }

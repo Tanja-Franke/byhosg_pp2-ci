@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYHOSG Instruction</title>
     <!--Meta tags for search engines-->
     <meta name="description" content="Interactive game to see whether you build your house on solid ground or not.">
     <meta name="keywords" content="bible knowledge, the Word of God, characters in the Bible, Jesus, game, 
@@ -41,40 +42,31 @@
     </header>
     <nav>
         <ul id="menu">
-            <li><a href="instruction.html" class="active">Instruction</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
         </ul>
     </nav>
-    <main>
-        <div class="container" id="toguess">
-            <p id="current"></p>
-        </div>
-        <div class="container" id="houseconainer">
-            <img src="#" alt="Your House">
-        </div>
-        <div class="container" id="guess">
-            <form onsubmit="playGame(); return false;">
-                <label for="answerinput" aria-label="enter Letter">Guess a letter: </label>
-                <input type="text" size="10" maxlength="1" id="answerinput" placeholder="Enter a letter"
-                    aria-labelledby="answerinput"><br><br>
-                <button id="submit" type="submit">Check Answer</button>
-                <input type="button" onclick="resetGame()" value="Reset form">
-            </form><br><br>
-            <p>Already guessed: </p><br>
-                    <p id="guessed"><b></b></p>
-        </div>
-        
-    </main>
-    <script src="wordlist.js"></script>
-    <script src="script.js"></script>
-    <footer>
-        <p id="copy">This website was solely created for educational purposes by T. F. <span><a
-                    href="https://de.linkedin.com/in/tanja-franke" target="_blank" rel="noopener"
-                    aria-label="Visit my linkedin-profile"><i class="fa-brands fa-linkedin"></i></a></span>
-            <span><a href="https://github.com/Tanja-Franke" target="_blank" rel="noopener"
-                    aria-label="Visit my github-profile"><i class="fa-brands fa-github"></i></a></span>
-        </p>
-    </footer>
-    <!--Font Awesome Kit-->
-    <script src="https://kit.fontawesome.com/4d6269d5e5.js" crossorigin="anonymous"></script>
+    <div class="container" id="instruction">
+        <pre>
+        _________________________________________________________________________
+        |   ___________________________________________________________________   |
+        |  |                                                                   |  |
+        |  |                ===============================                    |  |
+        |  |                | |                         | |                    |  |
+        |  |                | |      INSTRUCTION        | |                    |  |
+        |  |                | |                         | |                    |  |
+        |  |                ===============================                    |  |
+        |  |                                                                   |  |
+        |  |  A - a random word will be given to you by the system             |  |
+        |  |  B - To start the game you type in a desired letter into the      |  |
+        |  |      inputbox and click 'Check Answer'                            |  |
+        |  |  C - You have in total 6 attempts until your house collapsed      |  |
+        |  |  D - Try to guess the word before you reached the sixth attempts  |  |
+        |  |  E - You win the game when the word is guessed right and the house|  |
+        |  |       does not collapse!                                          |  |
+        |  |  F - If you need help, click on hints or the instruction link     |  |
+        |  |___________________________________________________________________|  |
+        |_________________________________________________________________________|
+        </pre>
+    </div>
 </body>
 </html>

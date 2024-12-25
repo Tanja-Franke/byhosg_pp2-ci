@@ -1,0 +1,103 @@
+/*Google Fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*General Styling*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color:hsl(154 84% 70%);
+    background: hsl(154 50% 5%);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+header>h1 {
+    font-size: small;
+    padding: 5em 10em;
+}
+nav {
+    display: flex;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: x-small;
+    
+}
+#menu{
+    display:flex;
+}
+#menu>li {
+    padding-left: 2rem;
+}
+header pre,
+#instruction pre{
+    font-size: x-large;
+}
+
+/*Make ascii art header responsive taken from stackoverflow 
+(https://stackoverflow.com/questions/75695347/how-can-i-make-ascii-art-pre-tag-responsive-without-media-queries)*/
+
+header pre,
+div pre {
+    font-size: max(0.2rem, 1vmin);
+   }
+body {
+    font-family: "Press Start 2P", serif;
+    margin-bottom: 20px;
+}
+footer {
+    margin-top: auto;
+    justify-content: space-between;
+    font-size: xx-small;
+    font-family: "Press Start 2P", serif;
+    top: 100%;
+    text-align: center;    
+}
+
+/*Game Modal*/
+#game-modal {
+    display: block;
+}
+
+/* responsive layout by @DeCodeDev on instagram*/
+.container {
+    flex-grow: 1;
+    flex-basis: 200px;
+    text-align: center;
+    padding: 30px 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#housecontainer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#current {
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+/*Buttons*/
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-size: medium;
+    font-family: "Press Start 2P", serif;;
+}

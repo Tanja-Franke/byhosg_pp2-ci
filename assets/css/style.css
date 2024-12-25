@@ -33,7 +33,7 @@ nav {
     width: fit-content;
     padding-right: 1rem;
     text-decoration: none;
-    font-size: x-small;
+    font-size: medium;
     
 }
 #menu{
@@ -58,6 +58,11 @@ body {
     font-family: "Press Start 2P", serif;
     margin-bottom: 20px;
 }
+#answerinput{
+    height:150px;
+    width:170px;
+    font-size:14pt;
+}
 footer {
     margin-top: auto;
     justify-content: space-between;
@@ -70,6 +75,7 @@ footer {
 /*Game Modal*/
 #game-modal {
     display: block;
+    font-family: "Press Start 2P", serif;
 }
 
 /* responsive layout by @DeCodeDev on instagram*/

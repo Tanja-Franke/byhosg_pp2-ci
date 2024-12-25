@@ -46,28 +46,27 @@
     </nav>
     <main>
         <div class="container" id="toguess">
-            <p id="attempts"></p>
-            <p id="current"></p>
+            <p id="attempts"></p><br>
+            <p id="current"></p><br>
             <p id="hints"></p>
         </div>
-        <div class="container" id="houseconainer">
+        <div class="container" id="housecontainer">
             <img src="#" alt="Your House">
         </div>
         <div class="container" id="guess">
-            <form onsubmit="playGame(); return false;">
+            <form onsubmit="checkInput(); return false;">
                 <label for="answerinput" aria-label="enter Letter">Guess a letter: </label>
                 <input type="text" size="10" maxlength="1" id="answerinput" placeholder="Enter a letter"
                     aria-labelledby="answerinput"><br><br>
                 <button id="submit" type="submit">Check Answer</button>
-                <input type="button" onclick="showHints()" value="Hints">
+                <input type="button" onclick="getRandom()" value="Restart">
+                
             </form><br><br>
             <p>Already guessed: </p><br>
                     <p id="guessed"><b></b></p>
         </div>
         
     </main>
-    <script src="wordlist.js"></script>
-    <script src="script.js"></script>
     <footer>
         <p id="copy">This website was solely created for educational purposes by T. F. <span><a
                     href="https://de.linkedin.com/in/tanja-franke" target="_blank" rel="noopener"
@@ -78,5 +77,7 @@
     </footer>
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/4d6269d5e5.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/wordlist.js"></script>
 </body>
 </html>

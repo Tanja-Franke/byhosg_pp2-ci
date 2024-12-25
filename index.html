@@ -46,7 +46,9 @@
     </nav>
     <main>
         <div class="container" id="toguess">
+            <p id="attempts"></p>
             <p id="current"></p>
+            <p id="hints"></p>
         </div>
         <div class="container" id="houseconainer">
             <img src="#" alt="Your House">
@@ -57,7 +59,7 @@
                 <input type="text" size="10" maxlength="1" id="answerinput" placeholder="Enter a letter"
                     aria-labelledby="answerinput"><br><br>
                 <button id="submit" type="submit">Check Answer</button>
-                <input type="button" onclick="resetGame()" value="Reset form">
+                <input type="button" onclick="showHints()" value="Hints">
             </form><br><br>
             <p>Already guessed: </p><br>
                     <p id="guessed"><b></b></p>

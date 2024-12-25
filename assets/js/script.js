@@ -42,8 +42,7 @@ document.querySelector("#hints").innerText = hint;
 /*jshint esversion: 6 */
 //as suggested in https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const 
 function checkInput(){
-    let guessesList = [];
-    // To check empty input
+        // To check empty input
     if (!input.value) {
         alert("Empty Input box. Please add input letter");
         return;
@@ -90,5 +89,7 @@ function checkInput(){
 
         } else if (attemptsCount==maxAttempts){
             alert("😢 Sorry, your house collapsed. Try to rebuild your house on solid ground.");
+        }else{
+            return;
         }
     };

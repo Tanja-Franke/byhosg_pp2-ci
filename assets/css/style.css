@@ -59,10 +59,9 @@ body {
     margin-bottom: 20px;
 }
 #answerinput{
-    height:150px;
-    width:170px;
-    font-size:14pt;
-}
+    height:50px;
+    width:80px;
+    }
 footer {
     margin-top: auto;
     justify-content: space-between;
@@ -90,7 +89,7 @@ footer {
 
 #housecontainer img {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
 }
 
 #current {

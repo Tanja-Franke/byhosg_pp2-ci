@@ -376,7 +376,7 @@ _This website is deployed using Git Pages_
 
 1. **Log in to Git Hub:** Navigate to the [Github website](https://github.com/) and log in to your account.
 2. **Go to your repository:** Once logged in, the dashboard will appear and on the left-hand side there are your top repository.
-3. **Select Repository:** Select the repository for website to be deployed, in this case, "twtttl-church"
+3. **Select Repository:** Select the repository for website to be deployed, in this case, "byhosg_ppw_ci"
 4. **Go to the Settings tab:** Click on the setting tab and a new interface will open
 5. **Select Pages:** On the left-hand side you will find 'Pages' nested in the Code and automation section, 
 6. **Configure Settings:** 'Source' needs to be set to `Deploy from Branch’ the 'Main branch' should be selected and the folder needs to be set to '/root'

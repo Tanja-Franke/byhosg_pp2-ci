@@ -45,28 +45,31 @@
         </ul>
     </nav>
     <main>
+        <div id="game-interface">
         <div class="container" id="toguess">
-            <p id="attempts"></p><br>
+           
             <p id="current"></p><br>
             <p id="hints"></p>
         </div>
+            <div class="container" id="guess">
+                <form onsubmit="checkAnswer(); return false;">
+                    <label for="answerinput" aria-label="enter Letter">Guess a letter: </label><br><br>
+                    <input type="text" size="10" maxlength="1" id="answerinput" placeholder="Enter a letter"
+                    aria-labelledby="answerinput">
+                    <button id="submit" type="submit">Check Answer</button>             
+                </form>
+                <form action="index.html">
+                    <input type="submit" value="Restart" id="returnbutton">
+                </form><br><br>
+                
+            </div>
+        </div>
         <div class="container" id="housecontainer">
-            <img src="#" alt="Your House">
-        </div>
-        <div class="container" id="guess">
-            <form onsubmit="checkInput(); return false;">
-                <label for="answerinput" aria-label="enter Letter">Guess a letter: </label>
-                <input type="text" size="10" maxlength="1" id="answerinput" placeholder="Enter a letter"
-                    aria-labelledby="answerinput"><br><br>
-                <button id="submit" type="submit">Check Answer</button>             
-            </form><br>
-            <form action="index.html">
-                <input type="submit" value="Restart" id="returnbutton">
-            </form><br><br>
+            <p id="attempts"></p><br>
+            <img src="#" alt="Your House"><br><br>
             <p>Already guessed: </p><br>
-                    <p id="guessed"><b></b></p>
+                        <p id="guessed"><b></b></p>
         </div>
-        
     </main>
     <footer>
         <p id="copy">This website was solely created for educational purposes by T. F. <span><a

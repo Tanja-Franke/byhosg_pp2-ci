@@ -11,11 +11,10 @@
 }
 main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     position: relative;
     min-height: 100vh;
-}
+    font-family: "Press Start 2P", serif;
+    }
 
 header {
     display: flex;
@@ -31,18 +30,16 @@ nav {
     position: relative;
     box-shadow: none;
     width: fit-content;
-    padding-right: 1rem;
+    padding: 1rem 2rem;
     text-decoration: none;
-    font-size: medium;
-    
-}
-#menu{
-    display:flex;
+    font-family: "Press Start 2P", serif;
+    border: #72f3bb solid;
 }
 #menu>li {
     padding-left: 2rem;
+    list-style-type: none;
 }
-header pre,
+
 #instruction pre{
     font-size: x-large;
 }
@@ -51,13 +48,13 @@ header pre,
 (https://stackoverflow.com/questions/75695347/how-can-i-make-ascii-art-pre-tag-responsive-without-media-queries)*/
 
 header pre,
-div pre {
+div pre{
     font-size: max(0.2rem, 1vmin);
    }
+
 body {
-    font-family: "Press Start 2P", serif;
     margin-bottom: 20px;
-}
+    }
 #answerinput{
     height:50px;
     width:80px;
@@ -65,16 +62,9 @@ body {
 footer {
     margin-top: auto;
     justify-content: space-between;
-    font-size: xx-small;
-    font-family: "Press Start 2P", serif;
     top: 100%;
-    text-align: center;    
-}
-
-/*Game Modal*/
-#game-modal {
-    display: block;
-    font-family: "Press Start 2P", serif;
+    text-align: center;
+    font-family: "Press Start 2P", serif;    
 }
 
 /* responsive layout by @DeCodeDev on instagram*/
@@ -86,23 +76,27 @@ footer {
     justify-content: space-between;
     width: 100%;
 }
-
+#game-interface{
+    flex-direction: column;
+    justify-content: center;
+}
 #housecontainer img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
 #current {
-    justify-content: center;
     margin: auto;
     padding: 10px;
 }
-
-/*Buttons*/
-#buttons {
+/*Forms*/
+form{
+    justify-content: space-between;
     display: flex;
-    justify-content: center;
-    gap: 1em;
-    font-size: medium;
-    font-family: "Press Start 2P", serif;;
+}
+/*Buttons*/
+#returnbutton, #submit {
+    display: flex;
+    padding: 20px 30px;
+    border-radius: 5px;
 }

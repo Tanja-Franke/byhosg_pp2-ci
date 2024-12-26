@@ -233,7 +233,7 @@ In this example:
 ## Naming Convention in this case
 
 The naming convention of this project uses name related to the website content such as in the example below. Showing the argument section using the purpose of the specific sections.
-![example of code](assets/images/readmeimages/codesnippet.PNG)
+![example of code](wy f)
 
 
 ## Testing
@@ -250,31 +250,31 @@ Responsiveness has been checked and adjusted in Chrome Dev Tools and the site ha
 
 The JavaScript code has been run through the [JS Hint](https://jshint.com/) validator. Results can be found below.
 
-<img src="assets/images/readmeimages/jsHint.PNG" alt="js hint validation"/>
+<img src="" alt="js hint validation"/>
 
 #### **HTML Validation**
 
 The HTML code has been run through the [W3C - HTML](https://validator.w3.org/) validator. Results can be found below.
 
-<img src="assets/images/readmeimages/html checker.PNG" alt="w3c html validation" />
+<img src="" alt="w3c html validation" />
 
 #### **CSS Validation**
 
 The CSS code has been run through the [W3C - CSS](https://jigsaw.w3.org/css-validator/) validator. Results can be found below.
-<img src="assets/images/readmeimages/css validation.PNG" alt="w3c css validation" />
+<img src="" alt="w3c css validation" />
 
 #### **Google Lighthouse**
 
 The lighthouse score results can be found below.
 
-<img src="assets/images/readmeimages/lighthouse.PNG" alt="google lighthouse desktop" />
-<img src="assets/images/readmeimages/lighthouse_mobile.PNG" alt="google lighthouse mobile" />
+<img src="" alt="google lighthouse desktop" />
+<img src="" alt="google lighthouse mobile" />
 
 #### **WAVE Accessibility Evaluation**
 
 The WAVE accessibility evaluation tool results can be found below.
 
-<img src="assets/images/readmeimages/wavevalidation.PNG" alt="WAVE accessibility evaluation" style="width: 400px;" />
+<img src="" alt="WAVE accessibility evaluation" style="width: 400px;" />
 
 #### **Manual Testing**
 

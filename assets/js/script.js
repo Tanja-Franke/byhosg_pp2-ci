@@ -1,7 +1,6 @@
 //DOMContentLoad waiting for DOM to load before starting the game 
 //(https://dev.to/obere4u/domcontentloaded-vs-windowonload-9mc, love maths walkthrough)
 document.addEventListener('DOMContentLoaded', function () {
-    alert("Welcome, type in a letter in the inputbox and check your bible knowledge by guessing the searched word right. If you need help click hints or instruction. God bless you and have fun ✝");
     startGame();
     });
 

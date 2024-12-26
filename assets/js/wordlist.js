@@ -23,23 +23,23 @@ const bibleWordList=[
     },
     {
         word: "genesis",
-        hint: "Old Testament, it tells about the beginning of everything!"
+        hint: "Book in the Old Testament, it tells about the beginning of everything!"
     },
     {
         word: "matthew",
-        hint: "New Testament, one of the Gospels, named after one Jesus´ deciples."
+        hint: "Book in the New Testament, one of the Gospels, named after one Jesus´ deciples."
     },
     {
         word: "psalms",
-        hint: "Old Testament, containing hymns, prayers and worship"
+        hint: "Book in the Old Testament, containing hymns, prayers and worship"
     },
     {
         word: "revelations",
-        hint: "New Testament, telling about the end time and final hope for believers."
+        hint: "Books in the New Testament, telling about the end time and final hope for believers."
     },
     {
         word: "corinthians",
-        hint: "New Testament, Paul urges to love and to repent and turn from wicked ways."
+        hint: "Books in the New Testament, Paul urges to love and to repent and turn from wicked ways."
     },
     { word:"daniel",
         hint:"He survived the lions den."
